@@ -32,16 +32,6 @@ This interactive Tic Tac Toe game is brought to you by the power of:
 - **JavaScript:** Implements the game logic and player interactions.
 - **Git:** Enables version control and collaboration among developers.
 
-## How to Play
-
-1. Open the game in your web browser.
-
-2. Two players take turns clicking on empty cells to place their symbols (X or O) on the board.
-
-3. The first player to align three of their symbols in a row (horizontally, vertically, or diagonally) wins.
-
-4. If no player achieves a winning combination and all cells are filled, the game ends in a tie.
-
 ## Author
 
 - Your Name
