@@ -1,56 +1,52 @@
 # Tic Tac Toe Game
 
-Welcome to the Tic Tac Toe game! This classic game of strategy and skill allows two players to compete in a battle of X's and O's. Test your wits against a friend and see who can create the winning combination first.
-
-## Table of Contents
-
-- [Description](#description)
-- [Getting Started](#getting-started)
-- [How to Play](#how-to-play)
-- [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
-- [License](#license)
+Welcome to the Tic Tac Toe game! Challenge your friends to a strategic battle of X's and O's in this classic game.
 
 ## Description
 
-Tic Tac Toe is a two-player game where players take turns placing their symbols (X or O) on a 3x3 grid. The objective is to get three of your symbols in a row, either horizontally, vertically, or diagonally, before your opponent does. The game requires careful planning and strategy to outwit your opponent and claim victory.
+Tic Tac Toe is a timeless game where two players take turns marking spaces in a 3x3 grid. The objective is to be the first to form a horizontal, vertical, or diagonal line with your symbol. It's a game of skill and strategy that's easy to learn but challenging to master.
 
 ## Getting Started
 
-To run the Tic Tac Toe game, simply follow these steps:
+To play the Tic Tac Toe game, follow these simple steps:
 
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/ValeriiaTen/simple-tic-tac-toe-game.git
 
-Open the index.html file in your preferred web browser.
+## How to Play
 
-Start playing! Click on an empty cell to place your symbol (X or O) and take turns with your opponent. The game will indicate the winner or a tie game once the game is over.
+1. Open the `index.html` file in your web browser.
 
-How to Play
-Open the Tic Tac Toe game in your web browser.
+2. Play against a friend by taking turns clicking on empty cells to place your symbol.
 
-Two players take turns clicking on an empty cell to place their symbol on the grid.
+3. The game will automatically detect a winner or a tie and display the result.
 
-The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+## Technologies Used
 
-If all cells are filled and no player has won, the game is a tie.
+This interactive Tic Tac Toe game is brought to you by the power of:
 
-Technologies Used
-This Tic Tac Toe game was built using the following technologies:
+- **HTML:** Provides the structure and layout of the game board.
+- **CSS:** Styles the game elements for an enjoyable visual experience.
+- **JavaScript:** Implements the game logic and player interactions.
+- **Git:** Enables version control and collaboration among developers.
 
-HTML: Used to structure the game board and user interface.
-CSS: Styled the game board, cells, and UI elements for a visually appealing experience.
-JavaScript: Implemented the game logic, player interactions, and win/tie conditions.
-Git: Version control system for tracking changes and collaborating on the project.
-Screenshots
-Add screenshots of your game in action here!
+## How to Play
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Open the game in your web browser.
 
-sql
-Copy code
+2. Two players take turns clicking on empty cells to place their symbols (X or O) on the board.
 
-Remember to replace placeholders like `your-username` with your actual GitHub us
+3. The first player to align three of their symbols in a row (horizontally, vertically, or diagonally) wins.
+
+4. If no player achieves a winning combination and all cells are filled, the game ends in a tie.
+
+## Author
+
+- Your Name
+- GitHub: [ValeriiaTen](https://github.com/ValeriiaTen)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
