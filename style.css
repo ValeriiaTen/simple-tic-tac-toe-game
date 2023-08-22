@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-image: url("tuictactoe.jpeg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .item {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #gameBoard {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .message-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 36px; /* Adjust the font size to your desired value */
+    font-weight: bold;
+    display: none;
+  }
+  
+  #cell0, #cell1, #cell2, #cell3, #cell4, #cell5 {
+    border-bottom: 6px solid black;
+  }
+  #cell2, #cell5, #cell8, #cell1, #cell4, #cell7 {
+    border-left: 6px solid black;
+  }
+  
+  #button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  }

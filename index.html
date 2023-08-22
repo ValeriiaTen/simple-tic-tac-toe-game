@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title style="text-align:center;">Tic-Tac-Toe</title>
+
+</head>
+
+<body>
+
+
+    <div>
+      <h1>TIC TAC TOE</h1>
+    </div>
+
+    <div id='container'>
+      <div class="item" id='winnerPlayer'>Win:</div>
+      <div class="item" id='blockTie'>Tie game:</div>
+    </div>
+
+    <table style="width:25%" id='gameBoard'>
+      <tr>
+        <td class="box" id="cell0"></td>
+        <td class="box" id="cell1"></td>
+        <td class="box" id="cell2"></td>
+      </tr>
+      <tr>
+        <td class="box" id="cell3"></td>
+        <td class="box" id="cell4"></td>
+        <td class="box" id="cell5"></td>
+      </tr>
+      <tr>
+        <td  class="box" id="cell6"></td>
+        <td  class="box" id="cell7"></td>
+        <td  class="box" id="cell8"></td>
+      </tr>
+    </table>
+
+    <div>
+      <button id="button">New Game</button>
+    </div>
+
+    <div id="messagePopup" class="message-popup"></div>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
