@@ -33,8 +33,6 @@ This interactive Tic Tac Toe game is brought to you by the power of:
 - **Git:** Enables version control and collaboration among developers.
 
 ## Author
-
-- Your Name
 - GitHub: [ValeriiaTen](https://github.com/ValeriiaTen)
 
 ## License
